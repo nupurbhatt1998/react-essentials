@@ -5,7 +5,8 @@ const Header = () => {
       <header>
         <img href="#" src={reactLogo} alt="react logo" />
         <h1>React Essentials</h1>
-        <p>4 fundamental concepts every react developer must understand</p>
+        <p>Fundamental React concepts you will need for almost any app you are
+        going to build!</p>
       </header>
     </>
   );

@@ -1,3 +1,6 @@
+body{
+  background-color: #20043d;
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -11,7 +14,7 @@
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
+/* .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
@@ -25,18 +28,27 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
+} */
 
-.card {
+/* .card {
   padding: 2em;
-}
+} */
 
 .read-the-docs {
   color: #888;
+}
+
+.react-basic{
+  display: flex;
+  background-color: black;
+}
+.react-basic li img{
+  height: 10em;
+  padding: 1.5em;
 }
